@@ -1,0 +1,119 @@
+{
+  "business": {
+    "name": "Acme Services",
+    "phone": "(555) 123-4567",
+    "email": "info@acmeservices.com",
+    "address": "123 Main St, Anytown, NY 11001",
+    "hours": ["Mon-Fri: 8am-6pm", "Sat: 9am-2pm"],
+    "logo": null
+  },
+  "design": {
+    "primaryColor": "#1a365d",
+    "accentColor": "#e53e3e",
+    "tone": "professional"
+  },
+  "seo": {
+    "siteTitle": "Acme Services — Professional Home Services in Anytown, NY",
+    "siteDescription": "Acme Services provides professional home improvement services in Anytown, NY. Call (555) 123-4567 for a free estimate.",
+    "keywords": ["home services anytown", "contractor anytown ny"],
+    "jsonLd": {
+      "type": "LocalBusiness",
+      "name": "Acme Services",
+      "telephone": "+15551234567",
+      "address": {
+        "streetAddress": "123 Main St",
+        "city": "Anytown",
+        "state": "NY",
+        "zip": "11001"
+      },
+      "geo": { "latitude": 40.75, "longitude": -73.2 },
+      "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-14:00"],
+      "aggregateRating": { "ratingValue": 4.8, "reviewCount": 50 }
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Acme Services — Professional Home Services in Anytown, NY",
+        "description": "Trusted home service provider in Anytown. Call (555) 123-4567."
+      },
+      "hero": {
+        "headline": "Trusted Home Services in Anytown",
+        "subheadline": "Professional, reliable service backed by 50+ five-star reviews. Call today for a free estimate.",
+        "ctaPrimary": { "text": "Call Now — (555) 123-4567", "href": "tel:+15551234567" },
+        "ctaSecondary": { "text": "View Our Services", "href": "/services" },
+        "stats": [
+          { "value": "20+", "label": "Years Experience" },
+          { "value": "500+", "label": "Projects Completed" },
+          { "value": "4.8★", "label": "Google Rating" }
+        ]
+      },
+      "trustBar": [
+        { "icon": "shield", "text": "Licensed & Insured" },
+        { "icon": "clock", "text": "Same-Day Service" },
+        { "icon": "award", "text": "5-Star Rated" },
+        { "icon": "check", "text": "Free Estimates" }
+      ],
+      "servicesSummary": [
+        { "slug": "general-repairs", "name": "General Repairs", "description": "Complete home repair services.", "icon": "🔧" },
+        { "slug": "remodeling", "name": "Remodeling", "description": "Kitchen and bathroom remodeling.", "icon": "🏠" }
+      ],
+      "aboutPreview": {
+        "headline": "Why Anytown Trusts Acme Services",
+        "text": "With over 20 years of experience, we've built our reputation on quality workmanship and honest pricing.",
+        "link": "/about"
+      },
+      "testimonials": [
+        { "text": "Great service, very professional team.", "author": "John D.", "rating": 5 },
+        { "text": "On time, on budget, excellent work.", "author": "Sarah M.", "rating": 5 }
+      ],
+      "cta": {
+        "headline": "Ready to Get Started?",
+        "description": "Contact us today for a free, no-obligation estimate.",
+        "buttonText": "Call Now",
+        "buttonHref": "tel:+15551234567"
+      }
+    },
+    "services": [
+      {
+        "slug": "general-repairs",
+        "name": "General Repairs",
+        "seo": { "title": "General Repairs in Anytown — Acme Services", "description": "Professional general repair services in Anytown, NY." },
+        "headline": "Professional General Repair Services",
+        "description": "From minor fixes to major repairs, our experienced team handles it all with precision and care.",
+        "features": [
+          { "title": "Same-Day Service", "description": "We respond quickly to your repair needs." },
+          { "title": "Quality Materials", "description": "We use only top-grade materials for lasting results." }
+        ],
+        "gallery": [],
+        "cta": { "headline": "Get a Free Repair Estimate", "buttonText": "Call Now", "buttonHref": "tel:+15551234567" }
+      }
+    ],
+    "about": {
+      "seo": { "title": "About Acme Services — Trusted in Anytown Since 2004", "description": "Learn about Acme Services." },
+      "headline": "About Acme Services",
+      "paragraphs": [
+        "Acme Services has been proudly serving Anytown and the surrounding communities for over 20 years.",
+        "Our team of skilled professionals is committed to delivering exceptional results on every project."
+      ],
+      "whyChooseUs": [
+        { "title": "Experienced Team", "description": "20+ years in the industry.", "icon": "⭐" },
+        { "title": "Honest Pricing", "description": "Transparent quotes with no hidden fees.", "icon": "💰" },
+        { "title": "Quality Guarantee", "description": "We stand behind every job.", "icon": "✅" },
+        { "title": "Local & Trusted", "description": "Part of the Anytown community.", "icon": "🏘️" }
+      ],
+      "team": []
+    },
+    "contact": {
+      "seo": { "title": "Contact Acme Services — Free Estimates in Anytown", "description": "Contact us for a free estimate." },
+      "headline": "Contact Us",
+      "description": "Ready to start your project? Give us a call or fill out the form below.",
+      "serviceArea": {
+        "headline": "Serving Anytown and Surrounding Areas",
+        "description": "We proudly serve homeowners throughout Anytown and the surrounding communities.",
+        "towns": ["Anytown", "Springfield", "Riverside", "Oakdale"]
+      }
+    }
+  },
+  "improvements": ["Placeholder content — replace with generated data"]
+}

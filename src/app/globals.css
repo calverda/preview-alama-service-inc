@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--site-primary, #1a365d);
+  --color-primary-light: color-mix(in srgb, var(--site-primary, #1a365d) 85%, white);
+  --color-primary-dark: color-mix(in srgb, var(--site-primary, #1a365d) 85%, black);
+  --color-accent: var(--site-accent, #e53e3e);
+  --color-accent-light: color-mix(in srgb, var(--site-accent, #e53e3e) 85%, white);
+}
+
+:root {
+  --site-primary: #1a365d;
+  --site-accent: #e53e3e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
